@@ -45,7 +45,7 @@ O sistema deve permitir que a pessoa consiga visualizar o histórico de pontos, 
 - Criar backend do projeto;
 - Criar frontend;
 - Conectar frontend com o backend
-- ;Fazer deploy da aplicação;
+- Fazer deploy da aplicação;
 
  *TIME*
  *UI/UX:* Camilly Victoria e Camilly Cristina;<br>
