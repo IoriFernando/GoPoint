@@ -49,8 +49,8 @@ O sistema deve permitir que a pessoa consiga visualizar o histórico de pontos, 
 
  *TIME*
  *UI/UX:* Camilly Victoria e Camilly Cristina;<br>
- *Frontend:* Camilly Victoria, Camilly Cristina, Lay e Miller;<br>
- *Backend:* Kayky, Jadilson e Iori
+ *Frontend:* Camilly Victoria, Camilly Cristina, Layla Castro e Ramon Miller;<br>
+ *Backend:* Kayky, Jadilson e Iori.
 
 
 
