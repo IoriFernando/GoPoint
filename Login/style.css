@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.logo {
+    height: 47%;
+}
+
+.left-circle {
+    height: 30vh;
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+    transition: .5s;
+}
+
+.right-circle {
+    height: 30vh;
+    position: absolute;
+    top: 65%;
+    left: 91.07%;
+    z-index: 0;
+}
+
+.master-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.login-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin:1.8em 0 0 15%;
+    width: 22.5em;
+    height: 28.5em;
+}
+
+.login-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: .82em;
+    color: #1d1d1d;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: .9em;
+}
+
+.input {
+    width: 27em;
+    height: 3.7em;
+    background-color: #c4ccd733;
+    border: #c4ccd7 .11em solid;
+    border-radius: .8em;
+    margin: 1.64em 0 1.3em 0;
+    padding: 18px;
+    outline-color: transparent;
+}
+
+.input::placeholder {
+    color: #889AAF;
+    font-weight: 500;
+    font-size: 1.16em;
+}
+
+.forgot-password-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.forgot-password, .reset-link, .signup-text{
+    color: #889AAF;
+    font-size: .77em;
+    font-weight: 500;
+}
+
+.reset-link, .signup-link{
+    color: #1250F3;
+}
+
+.login-button {
+    background-color: #2d3341;
+    height: 3.5em;
+    width: 100%;
+    border: none;
+    border-radius: 1.02em;
+    color: #fff;
+}
+
+.or-divider {
+    color: #747474;
+    font-weight: 500;
+    font-size: .95em;
+    margin-top: 2.5em;
+}
+
+.social-login-container {
+    display: flex;
+    justify-content: space-between;
+    width: 14em;
+    margin: 1em 0 1em 0;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2B313F;
+    font-weight: 600;
+    font-size: .9em;
+
+}
+
+.icon {
+    margin-right: .2em;
+}
+
+@media (max-width: 1050px) {
+
+    .logo {
+        height: 47%;
+        width: 22.4vw;
+    }   
+    
+    .left-circle {
+        transition: .5s;
+        transform: translateX(-50%);
+    }
+
+    .login-container {
+        transition: .5s;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .left-circle, .right-circle {
+        width: 12vw;
+    }
+
+    .left-circle {
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .master-container {
+        flex-direction: column;
+
+    }
+
+    .left-circle {
+        transform: translateX(0%);
+    }
+
+    .login-container {
+    margin: 0;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 360px;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        height: 6em;
+        width: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+    
+    .logo-container {
+        width: 386px;
+        margin-bottom: 36px;
+    }
+    
+    .logo {
+        width: 19vw;
+    }
+    
+    .left-circle {
+        display: none;
+    }
+
+    .right-circle {
+        top: 5%;
+        left: 81%;
+        width: 25vw;
+    }
+
+    .login-container {
+        margin:0 0 0 0;
+        width: 23em;
+        height: 36.8em;
+    }
+
+    .login-title {
+        font-size: .921em;
+}
+
+    .inputs-container {
+        height: 16vh;
+        margin-top: 3.2em;
+    }
+
+    .input {
+        width: 27.6em;
+    }
+
+    .forgot-password-container {
+        margin: 0.6em 0 3.5em 0;
+    }
+
+.forgot-password, .reset-link, .signup-text{
+    color: #889AAF;
+    font-size: .83em;
+    font-weight: 500;
+}
+
+.login-button {
+    height: 3.5em;
+    width: 82%;
+    font-size: 1em;
+}
+
+.or-divider {
+    margin-top: 1.6em;
+}
+
+.social-login-container {
+    width: 16.5em;
+    margin: 2.2em 0 4.2em 0;
+}
+
+.social-login {
+    font-size: 1.03em;
+
+}
+
+.icon {
+    margin-right: .2em;
+}
+}
+
